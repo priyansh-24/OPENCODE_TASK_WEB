@@ -1,0 +1,230 @@
+* {
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 120px;
+    background-color: #003b4c;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.nav-sign {
+    display: flex;
+    font-weight: 500;
+    color:#fafbfa;
+    margin:11px;
+}
+
+.profile {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 90%;
+}
+
+.name {
+    margin-left: 7px;
+    font-style:italic;
+    color:#adcfd5;
+}
+
+.logo {
+    background-image: url("DP.jpg");
+    background-size: contain;
+    height: 80%;
+    width: 65px;
+    border-radius: 15px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: #769db7;
+    background-image: url(x.gif);
+    height: 640px;
+}
+
+.myself {
+    color:rgb(238, 243, 245);
+}
+
+.contact {
+    padding: 100px;
+    background-image: url(https://i.pinimg.com/originals/4a/96/e6/4a96e602750b8ef669a77565becf3939.gif);
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.id {
+    font-size: 30px;
+}
+
+.about {
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    background-image: url(me.jpg);
+    background-size: contain;
+    height: 500px;
+    width: 280px;
+    border-radius: 200px;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.content {
+    width: 60%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HHH {
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.hobbies {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(183, 240, 226);
+    margin: 50px;
+    background-size: contain;
+    width: 250px;
+    height:250px;
+}
+
+.boox {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(183, 240, 226);
+    margin: 50px;
+    background-size: cover;
+    width: 200px;
+    height:180px;
+}
+
+
+.hob1 {
+    background-image: url(scate.jpg);
+}
+
+.hob2 {
+    background-image: url(sketch.jpg);
+}
+
+.hob3 {
+    background-image: url(create.jpg);
+}
+
+/* portfolio */
+
+.main {
+    margin: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    margin-right: 7px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.D1 {
+    background-image: url(1.png);
+}
+
+.D2 {
+    background-image: url(2.png);
+}
+
+.D3 {
+    background-image: url(3.png);
+}
+
+.D4 {
+    background-image: url(4.png);
+}
+
+.D5 {
+    background-image: url(5.png);
+}
+
+.folio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    background-image: url(image.jpg);
+}
